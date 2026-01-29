@@ -282,16 +282,6 @@
                     Operações Intercompany
                 </button>
                 
-                <button class="tab-button" data-tab="bloco-k" role="tab" aria-selected="false">
-                    <span class="dot"></span>
-                    Bloco K
-                </button>
-
-                <button class="tab-button" data-tab="demais" role="tab" aria-selected="false">
-                    <span class="dot"></span>
-                    Demais Análises
-                </button>
-
                 <!-- NOVA ÚLTIMA ABA: INTELIGÊNCIA ARTIFICIAL -->
                 <button class="tab-button" data-tab="ia" role="tab" aria-selected="false">
                     <span class="dot"></span>
@@ -319,7 +309,7 @@
                 <section class="tab-content" data-tab-content="tdd">
                     <iframe
                         class="report-frame"
-                        src="https://app.powerbi.com/reportEmbed?reportId=54f37c2f-71eb-468d-bc42-0419062b7f21&autoAuth=true&ctid=18fd44de-f8a4-45e0-b2f5-8e258ac0e6ee&actionBarEnabled=true&reportCopilotInEmbed=true"
+                        src="https://app.powerbi.com/reportEmbed?reportId=e4137f30-2c06-4dc7-a478-7b34e1f73508&autoAuth=true&ctid=18fd44de-f8a4-45e0-b2f5-8e258ac0e6ee&actionBarEnabled=true&reportCopilotInEmbed=true"
                         allowfullscreen="true">
                     </iframe>
                 </section>
@@ -328,23 +318,7 @@
                 <section class="tab-content" data-tab-content="intercompany">
                     <iframe
                         class="report-frame"
-                        src="https://app.powerbi.com/reportEmbed?reportId=fa036ea4-a82a-4933-86b4-ed9569f2b926&autoAuth=true&ctid=18fd44de-f8a4-45e0-b2f5-8e258ac0e6ee&actionBarEnabled=true&reportCopilotInEmbed=true">
-                    </iframe>
-                </section>
-
-                <!-- Bloco K -->
-                <section class="tab-content" data-tab-content="bloco-k">
-                    <iframe
-                        class="report-frame"
-                        src="https://app.powerbi.com/reportEmbed?reportId=9708ee97-1711-4a1c-85ac-2fe3ae6d64c4&autoAuth=true&ctid=18fd44de-f8a4-45e0-b2f5-8e258ac0e6ee&actionBarEnabled=true&reportCopilotInEmbed=true">
-                    </iframe>
-                </section>
-
-                <!-- Demais Análises -->
-                <section class="tab-content" data-tab-content="demais">
-                    <iframe
-                        class="report-frame"
-                        src="https://app.powerbi.com/reportEmbed?reportId=24aa8ba5-2827-4a3b-a0ce-5862aa579a04&autoAuth=true&ctid=18fd44de-f8a4-45e0-b2f5-8e258ac0e6ee&actionBarEnabled=true&reportCopilotInEmbed=true">
+                        src="https://app.powerbi.com/reportEmbed?reportId=afb7399d-92fb-4664-bb03-84732d71b95e&autoAuth=true&ctid=18fd44de-f8a4-45e0-b2f5-8e258ac0e6ee&actionBarEnabled=true&reportCopilotInEmbed=true">
                     </iframe>
                 </section>
 
@@ -357,8 +331,11 @@
                             Chat - Agente IA
                         </button>
                         <button class="ia-sub-btn" data-ia-tab="analise-op">
-                            Análise Operações
+                            Análise Operações - IA 1
                         </button>
+                        <button class="ia-sub-btn" data-ia-tab="analise-op2">
+                            Análise Operações - IA 2
+                        </button>                       
                         <button class="ia-sub-btn" data-ia-tab="simulacoes">
                             Simulações
                         </button>
@@ -375,15 +352,22 @@
                         <div class="ia-tab-content" data-ia-tab-content="analise-op">
                             <iframe
                                 class="report-frame"
-                                src="dashboard_reforma_friopecas.html">
+                                src="dashboard_reforma_maqlar.html">
                             </iframe>
                         </div>
 
+                        <div class="ia-tab-content" data-ia-tab-content="analise-op2">
+                            <iframe
+                                class="report-frame"
+                                src="dashboard_reforma_maqlar_v3_liquido.html">
+                            </iframe>
+                        </div>
+                        
                         <!-- Simulações (sem link por enquanto) -->
                         <div class="ia-tab-content" data-ia-tab-content="simulacoes">
                             <iframe
                                 class="report-frame"
-                                src="https://app.powerbi.com/reportEmbed?reportId=a1326f75-1c55-4583-bd3e-cf3f26169af5&autoAuth=true&ctid=18fd44de-f8a4-45e0-b2f5-8e258ac0e6ee&actionBarEnabled=true&reportCopilotInEmbed=true">
+                                src="https://app.powerbi.com/reportEmbed?reportId=8b7080ce-0e87-45e1-b656-dfdd50962f82&autoAuth=true&ctid=18fd44de-f8a4-45e0-b2f5-8e258ac0e6ee&actionBarEnabled=true&reportCopilotInEmbed=true">
                             </iframe>
                         </div>
                     </div>
@@ -498,6 +482,7 @@
 
 </body>
 </html>
+
 
 
 
